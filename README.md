@@ -11,7 +11,8 @@ The Denoising autoencoder is implemented with Pytorch and is applied on the MNIS
  - [Model architecture](#model-architecture)
  - [Hyperparameters](#hyperparameters)
  - [Training](#training)
- - [Training-Loss plot](#training-loss-plot)   
+ - [Training-Loss plot](#training-loss-plot)
+ - [Results](#results)   
 ## Required Imports
 
 * numpy
@@ -59,5 +60,9 @@ A function is defined to add noise to the images. `torch.randn` is used to creat
 MSE loss and the Adam optimization technique is used.
 
 ## Training-Loss plot
+![Loss Plot image](images/LossPlot.png)
 
+## Results
+   Original                  Noisy                Denoised
 
+![results image](images/Result.png)
