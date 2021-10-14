@@ -27,7 +27,7 @@ The [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) is used. It is a dataset 
 * In denoising autoencoders some noise is introduced to the input images. It tries to reconstruct the original image without noise. Such a noisy input reduces the risk of overfitting and prevents the autoencoder from learning a simple identity function.
 
 ## Model architecture
-```python:
+```python
 #Encoder
       nn.Conv2d(1,16,3, stride = 2, padding = 1)
       nn.ReLU(),
