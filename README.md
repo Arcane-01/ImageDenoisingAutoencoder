@@ -30,7 +30,7 @@ The [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) is used. It is a dataset 
 ```python
 #Encoder
       nn.Conv2d(1,16,3, stride = 2, padding = 1)
-      nn.ReLU(),
+      nn.ReLU()
       nn.Conv2d(16,32,3, stride = 2, padding = 1)
       nn.ReLU()
       nn.Conv2d(32,64,7)
@@ -48,7 +48,7 @@ The [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) is used. It is a dataset 
 |Hyperparameter     |Value |
 | :----------- | :----------- |
 | Learning rate      | 0.001      |
-| Number of epochs   | 10       |
+| Number of epochs   | 20       |
 | Batch Size     | 64      |
 
 ## Training
