@@ -60,9 +60,9 @@ A function is defined to add noise to the images. `torch.randn` is used to creat
 MSE loss and the Adam optimization technique is used.
 
 ## Training-Loss plot
-![Loss Plot image](images/LossPlot.png)
+![Loss Plot image](images/LossPlot.jpg)
 
 ## Results
    Original                  Noisy                Denoised
 
-![results image](images/Result.png)
+![results image](images/Result.jpg)
