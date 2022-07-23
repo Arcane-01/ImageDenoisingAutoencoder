@@ -15,9 +15,9 @@ The Denoising autoencoder is implemented with Pytorch and is applied on the MNIS
  - [Results](#results)   
 ## Required Imports
 
-* numpy
-* matplotlib(for data visualization)
-* Pytorch(for building and training the autoencoder)
+* NumPy
+* Matplotlib(for data visualization)
+* PyTorch(for building and training the autoencoder)
 ## Dataset
 The [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) is used. It is a dataset of 60,000 training samples and 10,000 test samples. Each sample is a 28×28 pixel grayscale image of a single handwritten digit between 0 and 9.
 
